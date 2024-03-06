@@ -3,15 +3,15 @@ import { UseCapitalizeFirstWord } from "@/hooks/useCapitalizeFirstWord";
 import { PiCaretDoubleRightLight } from "react-icons/pi";
 import type { Metadata, ResolvingMetadata } from "next";
 
-type Props = {
-  params: { name: string };
-  searchParams: { [key: string]: string | string[] | undefined };
-};
+// type Props = {
+//   params: { name: string };
+//   searchParams: { [key: string]: string | string[] | undefined };
+// };
 
 // }
 
 export async function generateMetadata(
-  { params, searchParams }: Props,
+  { params, searchParams }: any,
   parent: ResolvingMetadata
 ): Promise<Metadata> {
   // read route params
